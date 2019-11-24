@@ -24,6 +24,7 @@ class TheDate extends React.Component {
 		// console.log('render');
 		return (
 			<div>
+				<h2>Date and Time Constant Updating</h2>
 				{this.state.datetime.toLocaleString()}
 			</div>
 		)

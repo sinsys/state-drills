@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import TheDate from './components/TheDate/TheDate';
 import Counter from './components/Counter/Counter';
+import HelloWorld from './components/HelloWorld/HelloWorld';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
     	<Counter 
     		count={123}
     		step={5}
+    	/>
+    	<HelloWorld 
     	/>
     </div>
   );

@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+.App > div {
+  padding: 1rem;
+  margin: 1rem;
+  background: #EEE;
+  border: 1px solid #CCC;
+}

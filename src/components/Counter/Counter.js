@@ -51,10 +51,11 @@ class Counter extends React.Component {
 	render() {
 		return (
 			<div className="Counter">
+				<h2>Counter Test</h2>
 				<p>The current count: {this.state.count}</p>
 				<button
 					onClick={this.addCount}>
-					Add +1
+					Add +{this.props.step}
 				</button>
 			</div>
 		)
