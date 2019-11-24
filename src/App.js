@@ -6,7 +6,7 @@ import Counter from './components/Counter/Counter';
 import HelloWorld from './components/HelloWorld/HelloWorld';
 import Bomb from './components/Bomb/Bomb';
 import RouletteGun from './components/RouletteGun/RouletteGun';
-
+import Accordion from './components/Accordion/Accordion';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
     	<HelloWorld />
         <Bomb />
         <RouletteGun />
+        <Accordion />
     </div>
   );
 }
