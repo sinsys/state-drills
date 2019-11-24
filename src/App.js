@@ -4,6 +4,8 @@ import './App.css';
 import TheDate from './components/TheDate/TheDate';
 import Counter from './components/Counter/Counter';
 import HelloWorld from './components/HelloWorld/HelloWorld';
+import Bomb from './components/Bomb/Bomb';
+import RouletteGun from './components/RouletteGun/RouletteGun';
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
     		count={123}
     		step={5}
     	/>
-    	<HelloWorld 
-    	/>
+    	<HelloWorld />
+        <Bomb />
+        <RouletteGun />
     </div>
   );
 }
