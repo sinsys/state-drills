@@ -7,6 +7,7 @@ import HelloWorld from './components/HelloWorld/HelloWorld';
 import Bomb from './components/Bomb/Bomb';
 import RouletteGun from './components/RouletteGun/RouletteGun';
 import Tabs from './components/Tabs/Tabs';
+import Accordion from './components/Accordion/Accordion';
 
 const tabsProp = 
   [
@@ -17,6 +18,20 @@ const tabsProp =
     { name: 'Third tab',
       content: 'Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.' }
   ];
+const sectionsProp = [
+  {
+    title: 'Section 1',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    title: 'Section 2',
+    content: 'Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!',
+  },
+  {
+    title: 'Section 3',
+    content: 'Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?',
+  },
+];
 
 class App extends React.Component {
   render() {
@@ -32,6 +47,9 @@ class App extends React.Component {
         <RouletteGun />
         <Tabs 
           tabs={tabsProp}
+        />
+        <Accordion 
+          sections={sectionsProp}
         />
       </div>
     )

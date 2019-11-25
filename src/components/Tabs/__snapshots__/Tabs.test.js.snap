@@ -5,7 +5,7 @@ exports[`Tabs Component closes the first tab and opens the clicked tab 1`] = `
   className="Tabs-wrapper"
 >
   <h2>
-    Accordion
+    Tabs
   </h2>
   <button
     key="0"
@@ -38,7 +38,7 @@ exports[`Tabs Component renders empty when given no tabs 1`] = `
   className="Tabs-wrapper"
 >
   <h2>
-    Accordion
+    Tabs
   </h2>
 </div>
 `;
@@ -48,7 +48,7 @@ exports[`Tabs Component renders the first tab by default 1`] = `
   className="Tabs-wrapper"
 >
   <h2>
-    Accordion
+    Tabs
   </h2>
 </div>
 `;

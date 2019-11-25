@@ -30,7 +30,7 @@ describe(`Tabs Component`, () => {
   // 	expect(tree).toMatchSnapshot()
   // });
 
-  // ENZYME
+  // ENZYME //
   it('renders the first tab by default', () => {
   	const wrapper = shallow(<Tabs />);
   	expect(toJson(wrapper)).toMatchSnapshot();

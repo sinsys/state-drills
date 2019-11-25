@@ -44,7 +44,7 @@ class Tabs extends React.Component {
 	render() {
 		return (
 			<div className="Tabs-wrapper">
-				<h2>Accordion</h2>
+				<h2>Tabs</h2>
 				{this.renderButtons()}
 				{!!this.props.tabs.length && this.renderContent()}
 			</div>
