@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component closes the first tab and opens the clicked tab 1`] = `
+<div
+  className="Tabs-wrapper"
+>
+  <h2>
+    Accordion
+  </h2>
+  <button
+    key="0"
+    onClick={[Function]}
+  >
+    First tab
+  </button>
+  <button
+    key="1"
+    onClick={[Function]}
+  >
+    Second tab
+  </button>
+  <button
+    key="2"
+    onClick={[Function]}
+  >
+    Third tab
+  </button>
+  <div
+    className="content"
+  >
+    Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.
+  </div>
+</div>
+`;
+
+exports[`Tabs Component renders empty when given no tabs 1`] = `
+<div
+  className="Tabs-wrapper"
+>
+  <h2>
+    Accordion
+  </h2>
+</div>
+`;
+
+exports[`Tabs Component renders the first tab by default 1`] = `
+<div
+  className="Tabs-wrapper"
+>
+  <h2>
+    Accordion
+  </h2>
+</div>
+`;

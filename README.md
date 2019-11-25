@@ -1,3 +1,14 @@
+# React State Drills
+This is a collection of state drills for reference. It includes things like updating state, using props with state side by side, some `Math	` and `Date` functions, among others as a Kitchen Sink.
+## Available Components
+
+ - `TheDate` - This is a running clock that updates real-time based on 1 second update intervals.
+ - `Counter` - This is a very basic counting button component that updates the state by an interval set by props.
+ - `HelloWorld` - Expansion of the prior component. Allows you to update state by using the text of the selected button.
+ - `Bomb` - Uses a countdown timer to explode a bomb and updates state to demo toggling between two strings until a condition is met. A restart button is included.
+ - `RouletteGun` - A play on Russian Roulette. Select the button to randomly select an integer. If that integer is identical to the loaded chamber, you lose.
+ - `Tabs` - This is a basic tabs component to render different info based on the selected tab.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
