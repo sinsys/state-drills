@@ -8,6 +8,7 @@ This is a collection of state drills for reference. It includes things like upda
  - `Bomb` - Uses a countdown timer to explode a bomb and updates state to demo toggling between two strings until a condition is met. A restart button is included.
  - `RouletteGun` - A play on Russian Roulette. Select the button to randomly select an integer. If that integer is identical to the loaded chamber, you lose.
  - `Tabs` - This is a basic tabs component to render different info based on the selected tab.
+ - `Accordion` - This is a basic accordion component that expands/collapses info based on the selected item.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

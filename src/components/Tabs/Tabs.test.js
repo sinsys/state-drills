@@ -15,6 +15,7 @@ describe(`Tabs Component`, () => {
 	    { name: 'Third tab',
 	      content: 'Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.' }
 	  ];
+	const wrapper = shallow(<Tabs />);
 
   it('renders without errors', () => {
     const div = document.createElement('div');
@@ -32,12 +33,10 @@ describe(`Tabs Component`, () => {
 
   // ENZYME //
   it('renders the first tab by default', () => {
-  	const wrapper = shallow(<Tabs />);
   	expect(toJson(wrapper)).toMatchSnapshot();
   })
 
   it('renders empty when given no tabs', () => {
-  	const wrapper = shallow(<Tabs />);
   	expect(toJson(wrapper)).toMatchSnapshot();
   });
 

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component opens any clicked section 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+>
+  Section 2
+</button>
+`;
+
+exports[`Accordion component opens one section at a time 1`] = `
+<div
+  className="Accordion-wrapper"
+>
+  <h2>
+    Accordion
+  </h2>
+  <ul
+    className="Accordion"
+  >
+    <li
+      className="Accordion-section"
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="Accordion-section"
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="Accordion-section"
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 3
+      </button>
+      <p>
+        Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component renders empty with no sections by default 1`] = `
+<div
+  className="Accordion-wrapper"
+>
+  <h2>
+    Accordion
+  </h2>
+  <ul
+    className="Accordion"
+  >
+    <li
+      className="Accordion-section"
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="Accordion-section"
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="Accordion-section"
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
