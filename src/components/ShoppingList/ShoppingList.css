@@ -1,7 +1,5 @@
 /* APP STYLES */
 .Shopping-list {
-  min-height: calc(100vh - 16px);
-  min-width: calc(100vw - 16px);
   background: #0079bf;
   padding: 8px;
   display: inline-flex;

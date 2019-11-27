@@ -28,4 +28,5 @@
   margin: 1rem;
   background: #EEE;
   border: 1px solid #CCC;
+  min-width: 400px;
 }

@@ -1,6 +1,6 @@
 .Accordion {
 	list-style: none;
-	max-width: 400px;
+	width: 400px;
 }
 .Accordion li {
 	width: 100%;
