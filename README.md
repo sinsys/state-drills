@@ -9,6 +9,7 @@ This is a collection of state drills for reference. It includes things like upda
  - `RouletteGun` - A play on Russian Roulette. Select the button to randomly select an integer. If that integer is identical to the loaded chamber, you lose.
  - `Tabs` - This is a basic tabs component to render different info based on the selected tab.
  - `Accordion` - This is a basic accordion component that expands/collapses info based on the selected item.
+ - `TrelloNo` - This is a component consisting of 2 other components with functionality to add/remove content from lists.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
