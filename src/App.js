@@ -8,6 +8,8 @@ import Bomb from './components/Bomb/Bomb';
 import RouletteGun from './components/RouletteGun/RouletteGun';
 import Tabs from './components/Tabs/Tabs';
 import Accordion from './components/Accordion/Accordion';
+import ShoppingList from './components/ShoppingList/ShoppingList';
+import STORE from './components/ShoppingList/STORE.js';
 
 const tabsProp = 
   [
@@ -50,6 +52,9 @@ class App extends React.Component {
         />
         <Accordion 
           sections={sectionsProp}
+        />
+        <ShoppingList
+          store={STORE}
         />
       </div>
     )
