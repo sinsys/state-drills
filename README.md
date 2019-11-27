@@ -11,6 +11,8 @@ This is a collection of state drills for reference. It includes things like upda
  - `Accordion` - This is a basic accordion component that expands/collapses info based on the selected item.
  - `TrelloNo` - This is a component consisting of 2 other components with functionality to add/remove content from lists.
 
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
