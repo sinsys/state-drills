@@ -22,8 +22,15 @@
   font-size: 12px;
 }
 
+.Card-buttons {
+  display: flex;
+  flex-direction: column;
+}
 .Card button {
-  float: right;
   background-color: #eff1f3;
   border-radius: 6px;
+}
+
+.Card.purchased {
+  opacity: 0.3;
 }
