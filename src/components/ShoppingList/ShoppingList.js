@@ -52,7 +52,7 @@ class ShoppingList extends React.Component {
 
       const newLists = this.state.store.lists.map(list => {
         if (list.id === listId) {
-    return {
+          return {
             ...list,
             cardIds: [...list.cardIds, newCard.id]
           };
