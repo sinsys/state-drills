@@ -40,7 +40,7 @@ class Card extends React.Component {
 					</button>
 					<button
 						type="button"
-						onClick={() => this.state.onClickSave(this.state.id)}
+						onClick={() => this.props.onClickSavedCard(this.state.id)}
 					>
 						Save for Later
 					</button>	
@@ -51,7 +51,8 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-  onClickDelete: () => {}
+  onClickDelete: () => {},
+  onClickSavedCard: () => {}
 }
 
 export default Card;
