@@ -25,6 +25,8 @@ describe('Card component', () => {
 				id={props.id}
 				title={props.title}
 				content={props.content}
+				onClickDelete={props.onClickDelete}
+				purchased={props.purchased}
     	/>)
 			.toJSON();
 		expect(tree).toMatchSnapshot();

@@ -8,134 +8,271 @@ exports[`List component renders the UI as expected 1`] = `
     className="List-header"
   >
     <h2>
-      First list
+      Daily
     </h2>
   </header>
   <div
     className="List-cards"
   >
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         First card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Second card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Fifth card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Sixth card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Seventh card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Tenth card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Twelfth card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <div
-      className="Card"
+      className="Card "
     >
-      <button
-        type="button"
-      >
-        Delete
-      </button>
       <h3>
         Thirteenth card
       </h3>
       <p>
         lorem ipsum
       </p>
+      <div
+        className="Card-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Purchased
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Remove
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Save for Later
+        </button>
+      </div>
     </div>
     <button
       className="List-add-button"
+      onClick={[Function]}
       type="button"
     >
       + Add Card

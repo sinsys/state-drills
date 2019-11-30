@@ -47,6 +47,25 @@ class ShoppingList extends React.Component {
       })
     };
 
+    this.handleSavedCard = (cardId) => {
+      const { lists, allCards } = this.state.store;
+      console.log(cardId);
+      const newLists = lists.map(list => ({
+        ...list,
+        cardIds: list.cardIds.filter(id => id !== cardId),
+        saved: list.cardIds.cardId
+      }));
+
+      const newCards = omit(allCards, cardId);
+
+      this.setState({
+        store: {
+          lists: newLists,
+          allCards: newCards
+        }
+      })
+    };
+
     this.handleAddCard = (listId) => {
       const newCard = newRandomCard()
 
@@ -91,6 +110,7 @@ class ShoppingList extends React.Component {
               id={list.id}
               onClickDelete={this.handleDeleteCard}
               onClickAdd={this.handleAddCard}
+              onClickSaveCard={this.handleSavedCard}
             />
           ))}
         </section>
