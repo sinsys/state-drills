@@ -7,17 +7,26 @@ class Card extends React.Component {
 		super(props);
 		this.state = {
 			content: props.content,
-			purchased: props.purchased
+			purchased: props.purchased,
+			purchasedText: ["Show Again", "Purchase"]
 		};
 	}
 
 	togglePurchased() {
+
 		this.setState(
 			{purchased: !this.state.purchased
 		})
+		if(this.state.purchased){
+			console.log(true);
+		}
+		console.log(this.state);
 	}
 
+
 	render() {
+		const purchase = false;
+		const textVal = this.state.purchased ? this.state.purchasedText[0] : this.state.purchasedText[1]
 		return (
 			<div 
 				className={`Card ${this.state.purchased ? " purchased" : "" }`}
@@ -30,13 +39,13 @@ class Card extends React.Component {
 						type="button"
 						onClick={() => this.togglePurchased()}
 					>
-						Purchased
+						{textVal}
 					</button>
 					<button 
 						type="button"
 						onClick={() => this.props.onClickDelete(this.props.id)}
 					>
-						Remove
+						Delete
 					</button>
 					{/* <button
 					// 	type="button"
