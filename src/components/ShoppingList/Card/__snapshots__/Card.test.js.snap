@@ -25,12 +25,6 @@ exports[`Card component renders the UI as expected 1`] = `
     >
       Remove
     </button>
-    <button
-      onClick={[Function]}
-      type="button"
-    >
-      Save for Later
-    </button>
   </div>
 </div>
 `;

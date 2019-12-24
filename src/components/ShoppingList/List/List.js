@@ -13,6 +13,7 @@ class List extends React.Component {
 	}
 
 	render() {
+		console.log(this.props);
 		return (
 			<section className="List">
 				<header className="List-header">
@@ -30,10 +31,11 @@ class List extends React.Component {
 									purchased={false}
 									onClickDelete={this.props.onClickDelete}
 									onClickSavedCard={this.props.onClickSavedCard}
-								/>							
+								/>					
 							)
+						} else {
+							return (null);
 						}
-						else return {}
 					})}
 					<button
 						type="button"

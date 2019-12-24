@@ -12,9 +12,9 @@ class Card extends React.Component {
 	}
 
 	togglePurchased() {
-		this.setState(prevState => ({
-		  purchased: !prevState.purchased
-		}));
+		this.setState(
+			{purchased: !this.state.purchased
+		})
 	}
 
 	render() {
@@ -38,12 +38,12 @@ class Card extends React.Component {
 					>
 						Remove
 					</button>
-					<button
-						type="button"
-						onClick={() => this.props.onClickSavedCard(this.state.id)}
-					>
-						Save for Later
-					</button>	
+					{/* <button
+					// 	type="button"
+					// 	onClick={() => this.props.onClickSavedCard(this.state.id)}
+					// >
+					// 	Save for Later
+					 </button> */}
 				</div>
 			</div>
 		)		
