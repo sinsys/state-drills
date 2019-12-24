@@ -9,7 +9,7 @@ This is a collection of state drills for reference. It includes things like upda
  - `RouletteGun` - A play on Russian Roulette. Select the button to randomly select an integer. If that integer is identical to the loaded chamber, you lose.
  - `Tabs` - This is a basic tabs component to render different info based on the selected tab.
  - `Accordion` - This is a basic accordion component that expands/collapses info based on the selected item.
- - `ShoppingList` - This is a component consisting of 2 other components with functionality to add/remove content from lists. Also adds individual toggles for purchase, universal deletion of items, (**in progress**) and universal save for later functionality.
+ - `ShoppingList` - This is a component consisting of 2 other components with functionality to add/remove content from lists. Also adds individual toggles for purchase, universal deletion of items. (**save for later on backlog**)
 
 ___
 
